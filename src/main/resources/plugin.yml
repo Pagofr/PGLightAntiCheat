@@ -1,9 +1,9 @@
 name: LightAntiCheat
 version: ${project.version}
-main: vekster.lightanticheat.LightAntiCheat
+main: pagofr.lightanticheat.LightAntiCheat
 api-version: 1.17
-author: Vekster
-description: Lightweight, accurate, stable anti-cheat for Minecraft
+author:  Pagofr
+description: Updated Version of Veksters LightAntiCheat
 website: https://www.spigotmc.org/resources/lightanticheat.96341/
 softdepend:
   - Geyser-Spigot
@@ -20,18 +20,26 @@ permissions:
   lightanticheat.bypass:
     default: op
     description: Bypasse all checks
-  lightanticheat.alerts:
+  #lightanticheat.alerts:
+  #  default: op
+  #  description: Show all notifications
+  lightanticheat.alerts.*:
     default: op
-    description: Show all notifications
+    description: Show all notifications wildcard
+    children:
+      lightanticheat.alerts.punishment: true
+      lightanticheat.alerts.warn: true
+      lightanticheat.alerts.debug: true
+      lightanticheat.alerts.update: true
   lightanticheat.alerts.punishment:
-    default: op
+    default: false
     description: Show punishment notifications
   lightanticheat.alerts.warn:
-    default: op
+    default: false
     description: Show warn notifications
   lightanticheat.alerts.debug:
-    default: op
+    default: false
     description: Show debug notifications
   lightanticheat.alerts.update:
-    default: op
+    default: false
     description: Show update notifications
