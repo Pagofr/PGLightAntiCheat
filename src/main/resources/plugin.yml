@@ -2,7 +2,7 @@ name: LightAntiCheat
 version: ${project.version}
 main: pagofr.lightanticheat.LightAntiCheat
 api-version: 1.17
-author:  Pagofr
+author: Pagofr
 description: Updated Version of Veksters LightAntiCheat
 website: https://www.spigotmc.org/resources/lightanticheat.96341/
 softdepend:
