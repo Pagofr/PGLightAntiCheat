@@ -4,7 +4,7 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-import vekster.lightanticheat.LightAntiCheat;
+import pagofr.lightanticheat.LightAntiCheat;
 
 public class Commands implements CommandExecutor {
 

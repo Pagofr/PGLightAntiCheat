@@ -1,7 +1,7 @@
 package pagofr.lightanticheat.extra;
 
 import org.bukkit.Bukkit;
-import vekster.lightanticheat.LightAntiCheat;
+import pagofr.lightanticheat.LightAntiCheat;
 
 public class Tps {
 

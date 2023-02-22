@@ -10,7 +10,7 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 import pagofr.lightanticheat.extra.updater.Updater;
 import pagofr.lightanticheat.usage.Log;
-import vekster.lightanticheat.LightAntiCheat;
+import pagofr.lightanticheat.LightAntiCheat;
 import pagofr.lightanticheat.api.CheckTypes;
 import pagofr.lightanticheat.extra.updater.SpigotUpdater;
 import pagofr.lightanticheat.players.LACPlayer;

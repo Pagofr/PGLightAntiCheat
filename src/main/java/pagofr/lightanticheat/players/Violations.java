@@ -8,7 +8,7 @@ import pagofr.lightanticheat.api.LacFlagEvent;
 import pagofr.lightanticheat.api.LacPunishmentEvent;
 import pagofr.lightanticheat.extra.Alerts;
 import pagofr.lightanticheat.usage.Log;
-import vekster.lightanticheat.LightAntiCheat;
+import pagofr.lightanticheat.LightAntiCheat;
 import pagofr.lightanticheat.usage.Config;
 
 //The methods for counting violations

@@ -5,7 +5,7 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.FileConfiguration;
 import pagofr.lightanticheat.extra.configupdater.ConfigUpdater;
 import pagofr.lightanticheat.players.Violations;
-import vekster.lightanticheat.LightAntiCheat;
+import pagofr.lightanticheat.LightAntiCheat;
 
 import java.io.File;
 import java.io.IOException;

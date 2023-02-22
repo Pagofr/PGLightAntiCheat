@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pagofr</groupId>
-    <artifactId>LightAntiCheatReload</artifactId>
+    <artifactId>PGLightAntiCheatReload</artifactId>
     <version>1.5.0</version>
     <packaging>jar</packaging>
 
@@ -14,11 +14,11 @@
         <maven.compiler.target>16</maven.compiler.target>
     </properties>
 
-    <name>LightAntiCheat</name>
-    <description>Lightweight, accurate, stable anti-cheat for Minecraft</description>
+    <name>PGLightAntiCheat</name>
+    <description>Updated Version of Veksters LightAntiCheat</description>
 
     <build>
-        <finalName>LightAntiCheat</finalName>
+        <finalName>PGLightAntiCheat</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

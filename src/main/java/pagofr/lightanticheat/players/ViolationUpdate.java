@@ -3,7 +3,7 @@ package pagofr.lightanticheat.players;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import pagofr.lightanticheat.extra.Tps;
-import vekster.lightanticheat.LightAntiCheat;
+import pagofr.lightanticheat.LightAntiCheat;
 import pagofr.lightanticheat.usage.Config;
 
 //To update this values in LACPlayer
