@@ -18,7 +18,7 @@
     <description>Updated Version of Veksters LightAntiCheat</description>
 
     <build>
-        <finalName>PGLightAntiCheat</finalName>
+        <finalName>PGLightAntiCheat-${version}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
