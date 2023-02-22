@@ -1,6 +1,15 @@
 #Config variables:
 #%username% - username, %check% - type of check
 
+#permissions
+# lightanticheat.alerts.*
+#  lightanticheat.alerts.punishment
+#  lightanticheat.alerts.warn
+#  lightanticheat.alerts.debug
+#  lightanticheat.alerts.update,
+# lightanticheat.bypass
+# lightanticheat.reload
+
 #This plugin config is auto updated
 #but after plugin update it's recommended to recreate this
 
@@ -21,7 +30,7 @@ punishment:
   sensitivityMultiplier: 1.0
 
 #Leave blank to disable
-#The notifications are seen by console and players with "lightanticheat.alerts" permission
+#The notifications are seen by console and players with "lightanticheat.alerts.*" permission
 notifications:
   #A notifications when a player is suspected of hacking
   warningNotice: "&f(LAC) &c%username%&f is suspected of &c%check%&f hacking!"
@@ -111,6 +120,6 @@ debugMode:
   debugNotice: "&f(LAC) &c%username%&f is flagged with the&c %check%&f check!"
 
 messages:
-  unknownCommand: "&bUpdate values from 'config.yml': /lac reload"
+  unknownCommand: "&bUnknown command. Did you mean /lac reload"
   reloadCommand: "&bLightAntiCheat reloaded"
   unresolvedCommand: "&bYou don't have permission to do this"
