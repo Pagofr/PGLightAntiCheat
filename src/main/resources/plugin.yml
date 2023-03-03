@@ -4,7 +4,7 @@ main: pagofr.lightanticheat.LightAntiCheat
 api-version: 1.17
 author: Pagofr
 description: Updated Version of Veksters LightAntiCheat
-website: https://www.spigotmc.org/resources/lightanticheat.96341/
+website: https://github.com/Pagofr/PGLightAntiCheat
 softdepend:
   - Geyser-Spigot
   - floodgate
@@ -20,9 +20,6 @@ permissions:
   lightanticheat.bypass:
     default: op
     description: Bypasse all checks
-  #lightanticheat.alerts:
-  #  default: op
-  #  description: Show all notifications
   lightanticheat.alerts.*:
     default: op
     description: Show all notifications wildcard
