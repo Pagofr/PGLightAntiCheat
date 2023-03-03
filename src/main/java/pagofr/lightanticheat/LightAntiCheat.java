@@ -35,7 +35,7 @@ public class LightAntiCheat extends JavaPlugin {
         loadBukkitListeners();
         ViolationUpdate.enableViolationUpdate();
         Alerts.checkForUnsupportedVersion();
-        Alerts.checkForUpdates();
+//        Alerts.checkForUpdates();
         new Metrics(this, 12841);
     }
 
