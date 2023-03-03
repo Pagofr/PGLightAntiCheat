@@ -7,5 +7,5 @@ This is an updated Version of LightAntiCheat from https://github.com/VeksterGitH
 Please don't expect new Anti Cheat checks from me (pagofr),
 as I don't understand this complicated topic well enough.
 
-Warning: the permission lightanticheat.alerts got replaced with lightanticheat.alerts.* please change that in your permissions
-also: the update function doesn't work (yet)
+Warning: the permission lightanticheat.alerts got replaced with lightanticheat.alerts.* please change that in your permissions.
+Also: the update function doesn't work (yet)
